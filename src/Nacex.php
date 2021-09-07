@@ -24,7 +24,7 @@ class Nacex {
 
     private function call($method, $data) {
         if ($this->dev) {
-            $url = "http://193.16.153.113/nacex_ws/ws"; //DEV
+            $url = "http://pda.nacex.com/nacex_ws/ws"; //DEV
         } else {
             $url = "http://gprs.nacex-webservice.com:80/nacex_ws/ws"; //PROD
         }
